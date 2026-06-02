@@ -1,0 +1,6 @@
+*.weights
+*.pth
+env/
+__pycache__/
+*.pyc
+*.model
