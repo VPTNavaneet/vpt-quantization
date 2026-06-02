@@ -1,6 +1,6 @@
+*.weights
+*.model
+env/
 __pycache__/
 *.pyc
-*.weights
-*.pth
-env/
-cursors/
+logs/
