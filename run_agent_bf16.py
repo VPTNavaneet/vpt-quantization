@@ -4,8 +4,8 @@ import torch
 from minerl.herobraine.env_specs.human_survival_specs import HumanSurvival
 from agent import MineRLAgent, ENV_KWARGS
 
-MODEL  = "foundation-model-1x.model"
-WEIGHTS = "foundation-model-1x.weights"
+MODEL   = "2x.model"
+WEIGHTS = "rl-from-early-game-2x.weights"
 
 def update_module_dtypes(model, dtype=torch.bfloat16):
     for module in model.modules():
